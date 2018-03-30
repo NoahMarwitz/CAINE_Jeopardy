@@ -15,20 +15,24 @@ The following are acceptable lines in the s.txt file:
  * category: The name of the i'th category. The first five categories are actually read in.  
  
  EXAMPLE: 
-    time 45
-    category First
-    category Second
-    category Third
-    category Fourth
-    category Fifth 
+ ```
+time 45
+category First
+category Second
+category Third
+category Fourth
+category Fifth 
+```
 	
 ## q.txt Format
 Each question is split as such:  
-    q The question text
-	a The answer to the question
-	c The numerical category (1-5)
-	v The value of the question (100-500)
-	\# Used to denote the end of a question in the file.
+```
+q The question text
+a The answer to the question
+c The numerical category (1-5)
+v The value of the question (100-500)
+# Used to denote the end of a question in the file.
+```
 	
 You may string together as many questions as needed, each one being written as the block shown above.  
 Basically, the line after the \# is when you start the next question.
