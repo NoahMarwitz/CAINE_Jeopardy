@@ -1,0 +1,65 @@
+﻿<Window x:Class="WPFTesting.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFTesting"
+        mc:Ignorable="d"
+        ResizeMode="NoResize"
+        Title="MainWindow" Height="495" Width="584">
+    <Grid x:Name="main">
+        <Grid x:Name="categories" HorizontalAlignment="Left" Width="578" Height="60" VerticalAlignment="Top">
+            <Border x:Name="Cat1" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Width="115">
+                <TextBlock x:Name="ttext1" TextWrapping="Wrap" TextAlignment="Center" Text="CATEGORY 1"/>
+            </Border>
+            <Border x:Name="Cat2" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Width="115" Margin="115,0,0,0">
+                <TextBlock x:Name="ttext2" TextWrapping="Wrap" TextAlignment="Center" Text="CATEGORY 2"/>
+            </Border>
+            <Border x:Name="Cat3" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Width="115" Margin="230,0,0,0">
+                <TextBlock x:Name="ttext3" TextWrapping="Wrap" TextAlignment="Center" Text="CATEGORY 3"/>
+            </Border>
+            <Border x:Name="Cat4" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Width="115" Margin="345,0,0,0">
+                <TextBlock x:Name="ttext4" TextWrapping="Wrap" TextAlignment="Center" Text="CATEGORY 4"/>
+            </Border>
+            <Border x:Name="Cat5" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Width="115" Margin="460,0,0,0">
+                <TextBlock x:Name="ttext5" TextWrapping="Wrap" TextAlignment="Center" Text="CATEGORY 5"/>
+            </Border>
+        </Grid>
+        <Grid x:Name="cat1op" Margin="0,60,0,-8" HorizontalAlignment="Left" Width="115" Height="409" VerticalAlignment="Top">
+            <Button x:Name="cat1_100" Click="ValueClick" Content="100" FontSize="32" Margin="0,0,0,328"/>
+            <Button x:Name="cat1_200" Click="ValueClick" Content="200" FontSize="32" Margin="0,81,0,248"/>
+            <Button x:Name="cat1_300" Click="ValueClick" Content="300" FontSize="32" Margin="0,161,0,168"/>
+            <Button x:Name="cat1_400" Click="ValueClick" Content="400" FontSize="32" Margin="0,241,0,88"/>
+            <Button x:Name="cat1_500" Click="ValueClick" Content="500" FontSize="32" Margin="0,321,0,8"/>
+        </Grid>
+        <Grid x:Name="cat2op" Margin="115,60,0,-6" HorizontalAlignment="Left" Width="115" Height="409" VerticalAlignment="Top">
+            <Button x:Name="cat2_100" Click="ValueClick" Content="100" FontSize="32" Margin="0,0,0,328"/>
+            <Button x:Name="cat2_200" Click="ValueClick" Content="200" FontSize="32" Margin="0,81,0,248"/>
+            <Button x:Name="cat2_300" Click="ValueClick" Content="300" FontSize="32" Margin="0,161,0,168"/>
+            <Button x:Name="cat2_400" Click="ValueClick" Content="400" FontSize="32" Margin="0,241,0,88"/>
+            <Button x:Name="cat2_500" Click="ValueClick" Content="500" FontSize="32" Margin="0,321,0,8"/>
+        </Grid>
+        <Grid x:Name="cat3op" Margin="230,60,0,-6" HorizontalAlignment="Left" Width="115" Height="409" VerticalAlignment="Top">
+            <Button x:Name="cat3_100" Click="ValueClick" Content="100" FontSize="32" Margin="0,0,0,328"/>
+            <Button x:Name="cat3_200" Click="ValueClick" Content="200" FontSize="32" Margin="0,81,0,248"/>
+            <Button x:Name="cat3_300" Click="ValueClick" Content="300" FontSize="32" Margin="0,161,0,168"/>
+            <Button x:Name="cat3_400" Click="ValueClick" Content="400" FontSize="32" Margin="0,241,0,88"/>
+            <Button x:Name="cat3_500" Click="ValueClick" Content="500" FontSize="32" Margin="0,321,0,8"/>
+        </Grid>
+        <Grid x:Name="cat4op" Margin="345,60,0,-6" HorizontalAlignment="Left" Width="115" Height="409" VerticalAlignment="Top">
+            <Button x:Name="cat4_100" Click="ValueClick" Content="100" FontSize="32" Margin="0,0,0,328"/>
+            <Button x:Name="cat4_200" Click="ValueClick" Content="200" FontSize="32" Margin="0,81,0,248"/>
+            <Button x:Name="cat4_300" Click="ValueClick" Content="300" FontSize="32" Margin="0,161,0,168"/>
+            <Button x:Name="cat4_400" Click="ValueClick" Content="400" FontSize="32" Margin="0,241,0,88"/>
+            <Button x:Name="cat4_500" Click="ValueClick" Content="500" FontSize="32" Margin="0,321,0,8"/>
+        </Grid>
+        <Grid x:Name="cat5op" Margin="460,60,0,-6" HorizontalAlignment="Left" Width="115" Height="409" VerticalAlignment="Top">
+            <Button x:Name="cat5_100" Click="ValueClick" Content="100" FontSize="32" Margin="0,0,0,328"/>
+            <Button x:Name="cat5_200" Click="ValueClick" Content="200" FontSize="32" Margin="0,81,0,248"/>
+            <Button x:Name="cat5_300" Click="ValueClick" Content="300" FontSize="32" Margin="0,161,0,168"/>
+            <Button x:Name="cat5_400" Click="ValueClick" Content="400" FontSize="32" Margin="0,241,0,88"/>
+            <Button x:Name="cat5_500" Click="ValueClick" Content="500" FontSize="32" Margin="0,321,0,8"/>
+        </Grid>
+
+    </Grid>
+</Window>
